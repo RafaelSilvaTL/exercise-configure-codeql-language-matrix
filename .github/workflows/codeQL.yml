@@ -14,9 +14,11 @@ jobs:
       actions: read
       contents: read
 
+    # ------ Modified content ------
     strategy: 
       matrix:
         language: ['javascript', 'python']
+    # ------ Modified content ------
 
     steps:
       - name: Checkout repository
